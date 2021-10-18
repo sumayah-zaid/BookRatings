@@ -1,0 +1,389 @@
+Body{
+    margin:0 ;
+    padding: 0;
+    background-color: white;
+}
+
+
+.black{
+    background-color: black;
+    width: 100%;
+    height: 16px;
+}
+
+.main{
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.container{
+    background-color: white;
+}
+.home{
+    background-color: rgb(140 89 23 / 58%);    
+    width: 103px;
+    height: 101px;
+    border: none;
+    font-family: 'Architects Daughter', cursive;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+
+.home:hover{
+    background-color: black;
+    color: rgb(206, 121, 10);
+}
+
+.title{
+    text-align: center;
+}
+
+.navbarMain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid rgb(95, 90, 90);
+    background-color: rgb(206, 121, 10);
+    /* position: sticky; */
+}
+
+.siteName{
+    color: black;
+    font-weight: 900;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.navButton{
+    background-color : none;
+    border: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    /* border-radius: 5px; */
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+.navButton:hover{
+    background-color: black;
+    color: white;
+    width: 103px;
+    height: 101px;
+    /* animation-duration: 4s; */
+
+}
+
+.imgHeader{
+    opacity: 0.8;
+    height: 158px;
+    width: 1400px;
+}
+
+.navbar{
+    width:1400px;
+    height: 101px;    
+    background-color: rgb(244,241,234);
+    border-bottom: 2px solid #00000047;
+}
+
+.siteName{
+    font-family: 'Caveat', cursive;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.collection{
+    border: 1px solid gray;
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.review{
+    text-align: center;
+    font-weight: 700;
+    line-height: 0;
+}
+
+.author{
+    color: rgb(206, 121, 10);
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.description{
+    border: 1px solid #dad1d1a8;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    padding: 10px;
+    height: auto;
+    font-size: 19px;
+}
+
+.color{
+    color: rgb(206, 121, 10);
+    display: inline;
+    font-weight: 600;
+}
+
+.color:hover{
+    color: black;
+}
+
+.inline{
+    display: flex;
+}
+
+.bookTitle{
+    font-size: 35px;
+    vertical-align: middle;
+    height: 50px;
+    padding-left: 10px;
+    color: rgb(206, 121, 10);
+    font-weight: 900;
+}
+
+.iconTitle{
+    width:20px;
+}
+
+
+
+.newBook{
+    color: black;
+    background-color: rgb(206, 121, 10);
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    font-weight: 900;
+    padding: 20px;
+    border-bottom: 2px solid gray;
+}
+
+.formHndler{
+    width: 600px;
+    height: auto;
+    padding: 26px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.buttonForm{
+    background-color: rgb(206, 121, 10);
+    width: 100px;
+    height: 44px;
+    font-size: 15px;
+    font-weight: 900;
+    margin: 10px; 
+}
+
+.btnLink{
+    color: rgb(206, 121, 10);
+    width: 100px;
+    height: 44px;
+    font-size: 15px;
+    font-weight: 900;
+    margin: 10px; 
+}
+
+/* .dInline{
+    display: flex;
+
+} */
+
+.insertImg{
+    background-color: rgba(0, 0, 0, 0.63);
+    width: 300px;
+    height: 300px;
+}
+
+.buttonDel{
+    background-color: rgb(206, 10, 10);
+    width: 500px;
+    height: 44px;
+    font-size: 15px;
+    font-weight: 900;
+    margin: 10px; 
+    margin-left: 35%;
+    color: black;
+}
+.buttonEdit{
+    background-color: rgb(206, 121, 10);
+    width: 500px;
+    height: 44px;
+    font-size: 15px;
+    font-weight: 900;
+    margin: 10px; 
+    margin-left: 35%;
+    color: black;
+}
+/* .buttonDel:hover{
+    background-color: rgb(206, 121, 10);;
+    color: red;
+} */
+
+.collectButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 40px;
+}
+
+.likeCollection{
+    display: flex;
+    padding-top: 15px;
+
+}
+
+.like{
+    padding-left: 5px;
+}
+
+footer {
+    background-color: rgb(206, 121, 10);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+    margin-top: 20px;
+    bottom: 0;
+    color: #fff
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_navigation h3 {
+    margin: 0;
+    font: normal 36px Cookie, cursive;
+    margin-bottom: 20px;
+    color: #fff
+}
+
+.footer_navigation h3 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer_navigation h3 span {
+    color: black
+}
+
+.footer-navigation p.links a {
+    color: #fff;
+    text-decoration: none
+}
+
+.footer_navigation p.company-name {
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 20px
+}
+
+@media (max-width:767px) {
+    .footer_contacts {
+        margin: 30px 0
+    }
+}
+
+.footer_contacts p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle
+}
+
+.footer_contacts p a {
+    color: black;
+    text-decoration: none
+}
+
+.fa.footer_contacts-icon {
+    background-color: rgba(0, 0, 0, 0.63);
+    color: #fff;
+    font-size: 18px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 38px;
+    margin: 10px 15px 10px 0
+}
+
+span.new_line_span {
+    display: block;
+    font-weight: normal;
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2
+}
+
+.footer_about h4 {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px
+}
+
+.footer_about p {
+    line-height: 20px;
+    color: black;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0
+}
+
+div.social_links {
+    margin-top: 20px;
+    color: #fff
+}
+
+.social_links a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.footer {
+    bottom: 0;
+    position: absolute
+}
+
+
+.run{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link1{
+    color: black;
+    text-decoration: none;
+}
+.svg1{
+    vertical-align: super;
+}
